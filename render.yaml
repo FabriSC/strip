@@ -1,0 +1,13 @@
+services:
+  # A Docker web service
+  - type: web
+    name: anything
+    env: docker
+    repo: https://github.com/FabriSC/StripchatRecorder # optional
+    region: Frankfurt
+    plan: free
+    envVars:
+      - key: PORT
+        value: 80
+
+

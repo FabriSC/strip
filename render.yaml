@@ -3,7 +3,7 @@ services:
   - type: web
     name: anything
     env: docker
-    repo: https://github.com/FabriSC/StripchatRecorder # optional
+    repo: https://github.com/FabriSC/strip # optional
     region: Frankfurt
     plan: free
     envVars:
